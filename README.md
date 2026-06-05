@@ -1,4 +1,4 @@
-# Créer et utiliser une base de données immobilières - Projet DATAImmo 🏡📊
+# Créer et utiliser une base de données immobilières - Projet DATAImmo 🏡
 
 # Description du projet 📝
 
@@ -24,6 +24,7 @@ Résultats du premier semestre 2020 📅
 # Principaux Résultats :
 
 Région parisienne 🏙️ : Enregistre le plus grand nombre de ventes immobilières en France.
+
 Augmentation des ventes 📈 : Une hausse des ventes entre le premier et le second trimestre de 2020 a été observée.
 Surface vs Prix au m² 📏💵 : Plus la surface des biens augmente, plus le prix au m² tend à diminuer.
 Centre-Val de Loire 🌳 : Cette région possède la plus grande superficie de terrain parmi les biens immobiliers vendus.
