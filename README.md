@@ -62,9 +62,6 @@ DATAImmo/
 ├── presentation/
 │   └── support_presentation_requete_base_immo.pptx
 │
-├── requetes/                           # Scripts SQL
-│   ├── creation_bdd.sql
-│   └── requetes_bdd.sql
 │
 ├── .gitignore
 └── README.md
