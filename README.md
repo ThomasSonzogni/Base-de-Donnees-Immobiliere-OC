@@ -1,71 +1,73 @@
-# Créer et utiliser une base de données immobilières - Projet DATAImmo 🏡
+# DATAImmo — Base de données immobilières
 
-# Description du projet 📝
+## Description
 
-Le projet DATAImmo a pour objectif de créer et d'utiliser une base de données immobilières afin de mieux prévoir le prix de vente des biens immobiliers. Ce projet s'inscrit dans une initiative stratégique de Laplace Immo, un réseau national d’agences immobilières, visant à se démarquer de la concurrence grâce à l’analyse des données du marché.
+Le projet **DATAImmo** a pour objectif de créer et d'exploiter une base de données
+immobilières afin de mieux prévoir le prix de vente des biens. Il s'inscrit dans une
+initiative stratégique de **Laplace Immo**, un réseau national d'agences immobilières,
+visant à se démarquer de la concurrence grâce à l'analyse des données du marché.
 
-Le projet consiste à modifier et optimiser une base de données utilisée pour collecter les transactions immobilières et foncières en France 🇫🇷. Une fois la base de données améliorée, elle sera utilisée pour analyser le marché immobilier, fournir des insights sur les tendances du marché et aider les agences régionales à mieux accompagner leurs clients dans leurs achats et ventes de biens immobiliers.
+Le projet consiste à restructurer et optimiser une base de données collectant les
+transactions immobilières et foncières en France. Une fois améliorée, elle permet
+d'analyser le marché, d'identifier les tendances et d'aider les agences régionales
+à mieux accompagner leurs clients.
 
-# Objectifs principaux 🎯
+---
 
-Réarranger les données pour construire un dictionnaire de données complet et un schéma relationnel conforme aux normes de la 3NF (Troisième Forme Normale).
+## Objectifs
 
-Créer une base de données performante ⚙️, avec une structure optimisée pour l’exécution de requêtes complexes.
+- Construire un **dictionnaire de données** complet et un schéma relationnel conforme
+  à la **3NF** (Troisième Forme Normale).
+- Créer une base de données performante, optimisée pour des requêtes complexes.
+- Rédiger des **requêtes SQL** pour extraire des indicateurs clés : prix de vente,
+  surfaces, tendances régionales.
+- Garantir le respect du **RGPD** dans la manipulation des données personnelles.
 
-Effectuer des requêtes SQL 📑 afin d’extraire des données clés permettant d’analyser le marché immobilier, comme les prix de vente 💰, les surfaces 📏, et les tendances régionales 🌍.
+---
 
-Respect du RGPD 📜
+## Outils utilisés
 
-Le projet respecte pleinement le Règlement Général sur la Protection des Données (RGPD), garantissant que toutes les données personnelles et sensibles sont manipulées de manière sécurisée 🔒 et respectueuse des droits des utilisateurs.
+| Outil      | Usage                                          |
+|------------|------------------------------------------------|
+| SQLite     | Gestion de la base de données relationnelle    |
+| Excel      | Dictionnaire de données et analyse préliminaire|
+| Draw.io    | Création du schéma relationnel                 |
 
-# Outils utilisés 🛠️
+---
 
-SQLite 🗄️ : Gestion de la base de données relationnelle.
+## Résultats — Premier semestre 2020
 
-Excel 📊 : Élaboration du dictionnaire de données et analyse préliminaire des données.
+- **Région parisienne** : plus grand nombre de ventes immobilières en France.
+- **Évolution trimestrielle** : hausse des ventes entre le T1 et le T2 2020.
+- **Surface / Prix au m²** : plus la surface augmente, plus le prix au m² tend à baisser.
+- **Centre-Val de Loire** : région avec la plus grande superficie de terrain vendue.
 
-Draw.io 🎨 : Création du schéma relationnel de la base de données.
+---
 
-
-# Principaux Résultats :
-Résultats du premier semestre 2020 📅
-
-Région parisienne 🏙️ : Enregistre le plus grand nombre de ventes immobilières en France.
-
-Augmentation des ventes 📈 : Une hausse des ventes entre le premier et le second trimestre de 2020 a été observée.
-
-Surface vs Prix au m² 📏💵 : Plus la surface des biens augmente, plus le prix au m² tend à diminuer.
-
-Centre-Val de Loire 🌳 : Cette région possède la plus grande superficie de terrain parmi les biens immobiliers vendus.
-
-# Structure du projet 📂
-
-La structure du projet est organisée de manière à faciliter l’accès aux différentes ressources et scripts :
-
+## Structure du projet
 BASE_DE_DONNÉE_IMMOBILIERE/
-│── data/                      # Données sources en format CSV
-│   │── biens.csv              # Liste des biens immobiliers
-│   │── Communes.csv           # Informations sur les communes
-│   │── departement.csv        # Informations sur les départements
-│   │── donnees_de_base.zip    # Archive contenant les données de base
-│   │── région.csv             # Informations sur les régions
-│   │── ventes.csv             # Historique des ventes immobilières
+│── data/                       # Données sources (CSV)
+│   ├── biens.csv
+│   ├── Communes.csv
+│   ├── departement.csv
+│   ├── donnees_de_base.zip
+│   ├── région.csv
+│   └── ventes.csv
 │
-│── documentation_bdd/         # Documentation sur la base de données
-│   │── bdd_sql/               # Dossier avec la base SQL
-│   │── Dictionnaire_de_donnees.xlsx  # Dictionnaire des données
-│   │── schema_relationnel_base_de_donnee_immo.png  # Schéma relationnel de la BDD
+│── documentation_bdd/          # Documentation de la base
+│   ├── bdd_sql/
+│   ├── Dictionnaire_de_donnees.xlsx
+│   └── schema_relationnel_base_de_donnee_immo.png
 │
-│── presentation/              # Présentation du projet
-│   │── support_presentation_requete_base_immo.pptx  # Présentation PowerPoint
+│── presentation/
+│   └── support_presentation_requete_base_immo.pptx
 │
-│── requetes/                  # Scripts SQL
-│   │── creation_bdd.sql       # Script de création de la base de données
-│   │── requetes_bdd.sql       # Requêtes SQL pour l'exploitation des données
+│── requetes/                   # Scripts SQL
+│   ├── creation_bdd.sql
+│   └── requetes_bdd.sql
 │
-│── .gitignore                 # Fichier pour ignorer certains fichiers dans Git
-│── README.md                  # Documentation principale du projet
-
+│── .gitignore
+└── README.md
 
 # Le dictionnaire de données
 
