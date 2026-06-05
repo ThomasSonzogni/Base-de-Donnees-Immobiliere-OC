@@ -45,8 +45,9 @@ d'analyser le marché, d'identifier les tendances et d'aider les agences région
 ---
 
 ## Structure du projet
+```
 BASE_DE_DONNÉE_IMMOBILIERE/
-│── data/                       # Données sources (CSV)
+├── data/                       # Données sources (CSV)
 │   ├── biens.csv
 │   ├── Communes.csv
 │   ├── departement.csv
@@ -54,20 +55,21 @@ BASE_DE_DONNÉE_IMMOBILIERE/
 │   ├── région.csv
 │   └── ventes.csv
 │
-│── documentation_bdd/          # Documentation de la base
+├── documentation_bdd/          # Documentation de la base
 │   ├── bdd_sql/
 │   ├── Dictionnaire_de_donnees.xlsx
 │   └── schema_relationnel_base_de_donnee_immo.png
 │
-│── presentation/
+├── presentation/
 │   └── support_presentation_requete_base_immo.pptx
 │
-│── requetes/                   # Scripts SQL
+├── requetes/                   # Scripts SQL
 │   ├── creation_bdd.sql
 │   └── requetes_bdd.sql
 │
-│── .gitignore
+├── .gitignore
 └── README.md
+```
 
 # Le dictionnaire de données
 
